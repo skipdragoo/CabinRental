@@ -1,5 +1,5 @@
 import { Card } from "./ui/card";
-import { MapPin, Clock } from "lucide-react";
+import { Clock } from "lucide-react";
 
 const nearbyAttractions = [
   { name: "Downtown [CITY]", time: "15 minutes", icon: "🏘️" },
@@ -30,17 +30,17 @@ export function LocationSection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Map Placeholder */}
-          <Card className="p-8 shadow-lg">
-            <div className="aspect-square rounded-xl bg-muted/50 flex items-center justify-center border-2 border-dashed border-border">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 mx-auto mb-4 text-muted-foreground opacity-50" />
-                <p className="text-muted-foreground">
-                  Interactive Map
-                  <br />
-                  <span className="text-xs">(Embed Google Maps or Mapbox here)</span>
-                </p>
-              </div>
+          {/* Google Maps Embed */}
+          <Card className="p-4 shadow-lg overflow-hidden">
+            <div className="rounded-xl overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.7377524618482!2d-94.35441791218942!3d34.76873630968507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ2JzA3LjQiTiA5NMKwMjAnNTguNCJX!5e1!3m2!1sen!2sus!4v1766522483241!5m2!1sen!2sus"
+                className="w-full aspect-square border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Cabin Location Map"
+              ></iframe>
             </div>
           </Card>
 
