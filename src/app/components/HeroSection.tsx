@@ -1,4 +1,6 @@
+import * as React from "react";
 import { Button } from "./ui/button";
+import cabinOutsideImg from "../images/cabin_outside.png";
 
 interface HeroSectionProps {
   onCheckAvailability: () => void;
@@ -11,7 +13,8 @@ export function HeroSection({ onCheckAvailability, onRequestBook }: HeroSectionP
       {/* Hero Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1648326342761-8a9abfb7a2c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYWJpbiUyMGV4dGVyaW9yJTIwZm9yZXN0fGVufDF8fHx8MTc2NjQzMjc1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          //src="https://images.unsplash.com/photo-1648326342761-8a9abfb7a2c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYWJpbiUyMGV4dGVyaW9yJTIwZm9yZXN0fGVufDF8fHx8MTc2NjQzMjc1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          src={cabinOutsideImg}
           alt="Luxury cabin exterior surrounded by forest"
           className="w-full h-full object-cover"
         />
@@ -30,7 +33,7 @@ export function HeroSection({ onCheckAvailability, onRequestBook }: HeroSectionP
             lineHeight: 1.1
           }}
         >
-          A quiet cabin escape near [AREA]
+          A quiet cabin escape in the Ouachita Mountains
         </h1>
         <p 
           className="mb-8 max-w-2xl mx-auto opacity-95"
@@ -41,7 +44,7 @@ export function HeroSection({ onCheckAvailability, onRequestBook }: HeroSectionP
             lineHeight: 1.6
           }}
         >
-          Sleeps 6 · 3 beds · 2 baths · Hot tub · Fireplace · Lake access
+          Sleeps 7 · 5 beds · 1 baths · TV · Fire Pit · National Forest access
         </p>
 
         {/* CTAs */}

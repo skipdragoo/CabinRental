@@ -27,7 +27,7 @@ export function Footer() {
                 fontSize: '1.5rem'
               }}
             >
-              [CABIN NAME]
+              BlackFork Hills
             </h3>
             <p className="text-sm opacity-90">
               Your mountain retreat awaits
@@ -71,20 +71,20 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a 
-                  href="mailto:stay@cabinname.com" 
+                  href="mailto:stay@blackforkhills.com" 
                   className="flex items-center gap-2 hover:opacity-80 transition-opacity"
                 >
                   <Mail className="w-4 h-4" />
-                  stay@cabinname.com
+                  stay@blackforkhills.com
                 </a>
               </li>
               <li>
                 <a 
-                  href="tel:+15555551234" 
+                  href="tel:+19403123012" 
                   className="flex items-center gap-2 hover:opacity-80 transition-opacity"
                 >
                   <Phone className="w-4 h-4" />
-                  (555) 555-1234
+                  (940) 312-3012
                 </a>
               </li>
             </ul>
@@ -114,8 +114,8 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
-          <p>© {currentYear} [CABIN NAME]. All rights reserved.</p>
-          <p>Managed by [Your Company/LLC]</p>
+          <p>© {currentYear} BlackFork Hills. All rights reserved.</p>
+          <p>Managed by Relay Properties</p>
         </div>
       </div>
     </footer>

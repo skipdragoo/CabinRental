@@ -1,32 +1,33 @@
-import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import entryImg from "../images/entry.png";
+import kitchenImg from "../images/kitchen.png";
+import livingRoomImg from "../images/living_room.png";
+import upstairsImg from "../images/upstairs.jpeg";
+import upstairs2Img from "../images/upstairs2.png";
+
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1648326342761-8a9abfb7a2c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYWJpbiUyMGV4dGVyaW9yJTIwZm9yZXN0fGVufDF8fHx8MTc2NjQzMjc1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Exterior"
+    url: entryImg,
+    caption: "Entry"
   },
   {
-    url: "https://images.unsplash.com/photo-1696860740793-1bb7bf33cdc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwY2FiaW4lMjBsaXZpbmclMjByb29tJTIwZmlyZXBsYWNlfGVufDF8fHx8MTc2NjQzMjc1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Living Room"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1727706572437-4fcda0cbd66f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYWJpbiUyMGJlZHJvb20lMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjY0MzI3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Primary Bedroom"
-  },
-  {
-    url: "https://images.unsplash.com/photo-1668015642167-ba3c4c64825b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYWJpbiUyMGtpdGNoZW4lMjBydXN0aWN8ZW58MXx8fHwxNzY2NDMyNzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    url: kitchenImg,
     caption: "Kitchen"
   },
   {
-    url: "https://images.unsplash.com/photo-1763338997133-8044829329fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYWJpbiUyMGRlY2slMjBtb3VudGFpbiUyMHZpZXd8ZW58MXx8fHwxNzY2NDMyNzU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Deck & Views"
+    url: livingRoomImg,
+    caption: "Living Room"
   },
   {
-    url: "https://images.unsplash.com/photo-1633512424746-0cb5240e064d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwaG90JTIwdHViJTIwbmF0dXJlfGVufDF8fHx8MTc2NjQzMjc1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Hot Tub"
+    url: upstairsImg,
+    caption: "Upstairs"
+  },
+  {
+    url: upstairs2Img,
+    caption: "Upstairs (Alternate View)"
   }
 ];
 

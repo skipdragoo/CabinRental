@@ -116,10 +116,10 @@ export function ContactSection() {
                     Email
                   </h3>
                   <a
-                    href="mailto:stay@cabinname.com"
+                    href="mailto:stay@blackforkhills.com"
                     className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
-                    stay@cabinname.com
+                    stay@blackforkhills.com
                   </a>
                 </div>
               </div>
@@ -138,10 +138,10 @@ export function ContactSection() {
                     Phone
                   </h3>
                   <a
-                    href="tel:+15555551234"
+                    href="tel:+19403123012"
                     className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
-                    (555) 555-1234
+                    (940) 312-3012
                   </a>
                 </div>
               </div>
