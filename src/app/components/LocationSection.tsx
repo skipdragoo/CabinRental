@@ -83,7 +83,7 @@ export function LocationSection() {
             About the Area
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            Nestled in the scenic [AREA] region, our cabin offers the perfect blend of tranquility and convenience. 
+            Nestled in the scenic Ouachita Mountains region, our cabin offers the perfect blend of tranquility and convenience. 
             Wake up to birdsong and mountain views, spend your days exploring pristine hiking trails, kayaking on 
             the crystal-clear lake, or simply relaxing on the deck with a good book. The charming downtown area is 
             just a short drive away, offering local eateries, craft breweries, and artisan shops. In winter, world-class 

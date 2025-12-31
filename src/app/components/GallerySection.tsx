@@ -2,11 +2,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import entryImg from "../images/entry.png";
-import kitchenImg from "../images/kitchen.png";
-import livingRoomImg from "../images/living_room.png";
+import entryImg from "../images/entry.jpg";
+import kitchenImg from "../images/kitchen.jpeg";
+import livingRoomImg from "../images/living_room.jpeg";
 import upstairsImg from "../images/upstairs.jpeg";
-import upstairs2Img from "../images/upstairs2.png";
+import upstairs2Img from "../images/upstairs2.jpeg";
 
 const galleryImages = [
   {

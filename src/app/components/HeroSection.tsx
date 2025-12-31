@@ -44,7 +44,7 @@ export function HeroSection({ onCheckAvailability, onRequestBook }: HeroSectionP
             lineHeight: 1.6
           }}
         >
-          Sleeps 7 · 5 beds · 1 baths · TV · Fire Pit · National Forest access
+          Sleeps 7 · 5 beds · 1 baths · TV · Fire Pit · National Forest Access
         </p>
 
         {/* CTAs */}
